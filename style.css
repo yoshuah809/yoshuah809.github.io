@@ -20,6 +20,7 @@ p, h1, h2
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 6px;
   }
   
   .topnav a:hover {
@@ -37,6 +38,8 @@ p, h1, h2
 
 body{
     color: #343434;
+    margin: 0;
+    padding: 0;
 }  
 a{
   color: #fefefe;
@@ -50,9 +53,17 @@ a.hover{
 .main-header{
     background: #2f3061;
     color: #ffe66d;
+    padding: 8px;
+    border-radius: 6px;
+    
 }
-
-
+.content-wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+.aboutme{
+  text-align: justify;
+}
 
 
 /* Projects
@@ -64,10 +75,16 @@ a.hover{
 .projects a {
   color: #f7fff7;
   background: #2f3061;
+  padding: 8px;
+  border-radius: 6px;
+}
+.projects a:hover{
+background:rgba(47,48,97,80)
 }
 
-.projects h2, p{
+.projects {
   color: black;
+  font-family: sans-serif;
 }
 
 
@@ -77,6 +94,7 @@ a.hover{
 /*Contact Info 
 --------------------------------------------------------*/
 .footer {
-    background: #343434
+    background: #343434;
+    border-radius: 4px;
 }
 
