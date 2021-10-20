@@ -1,9 +1,9 @@
-p
+p, h1, h2
 {
     font-family: sans-serif;
     font-weight: 300;
     font-variant-position: super;
-    color: blue;
+    color: rgb(240, 240, 248);
 }
 /* Navigation
 ---------------------------------------------------------------- */
@@ -16,7 +16,7 @@ p
   .topnav a {
     float: left;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -38,10 +38,18 @@ p
 body{
     color: #343434;
 }  
+a{
+  color: #fefefe;
+}
+a.hover{
+  text-decoration: none;
+}
+
 /* Profile
 -----------------------------------------------------------*/
 .main-header{
-    background: #ccccda;
+    background: #2f3061;
+    color: #ffe66d;
 }
 
 
@@ -49,7 +57,18 @@ body{
 
 /* Projects
 -----------------------------------------------------------*/
+.projects {
+  background: #f7fff7;
+}
 
+.projects a {
+  color: #f7fff7;
+  background: #2f3061;
+}
+
+.projects h2, p{
+  color: black;
+}
 
 
 /*Work Experience 
