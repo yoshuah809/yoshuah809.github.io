@@ -10,7 +10,10 @@ p, h1, h2
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(167, 157, 157);
+    background-color: #2f3061;
+    border-bottom: 3px solid #1e1f49;
+    
+    
   }
   
   .topnav a {
@@ -59,18 +62,25 @@ a.hover{
 }
 .content-wrapper{
     width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 .aboutme{
   text-align: justify;
 }
-
+.projects-header{
+  color:white;
+  word-spacing: 10px;
+  padding-bottom: 20px;
+  background-color:#2f3061;
+  font-size: 30px;
+  border-bottom: 3px solid #1e1f49;
+  padding: 2px 20px;
+  border-bottom-right-radius: 50px 20px;
+  display: inline-block;
+}
 
 /* Projects
 -----------------------------------------------------------*/
-.projects {
-  background: #f7fff7;
-}
 
 .projects a {
   color: #f7fff7;
@@ -83,18 +93,10 @@ background:rgba(47,48,97,80)
 }
 
 .projects {
-  color: black;
+  color: rgb(26, 25, 25);
   font-family: sans-serif;
 }
-.projects-header{
-  font-family: helvetica, arial, sans-serif;
-  font-style: italic;
-  color: black;
-}
 
-
-/*Work Experience 
---------------------------------------------------------*/
 
 /*Contact Info 
 --------------------------------------------------------*/
