@@ -86,6 +86,11 @@ background:rgba(47,48,97,80)
   color: black;
   font-family: sans-serif;
 }
+.projects-header{
+  font-family: helvetica, arial, sans-serif;
+  font-style: italic;
+  color: black;
+}
 
 
 /*Work Experience 
